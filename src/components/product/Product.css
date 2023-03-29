@@ -1,6 +1,6 @@
 .product-detail {
   width: 19rem;
-  height: 31.75rem;
+  height: 33rem;
   border-radius: .5rem;
   border: 2px solid #95A0A7;
   position: relative;
@@ -24,5 +24,5 @@
   bottom: 0;
 }
 .btn-add-cart:hover {
-  background-color: orange;
+  background-color: rgb(246, 162, 7);
 }
