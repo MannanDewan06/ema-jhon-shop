@@ -1,0 +1,19 @@
+.nav-container {
+  height: 5rem;
+  width: 100%;
+  background-color: #1C2B35;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-container img {
+  padding-left: 7rem;
+}
+.nav-menu {
+  padding-right: 6rem;
+}
+.nav-menu a {
+  text-decoration: none;
+  color: white;
+  margin-right: 2rem;
+}

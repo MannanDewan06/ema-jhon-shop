@@ -1,0 +1,27 @@
+.shop-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  margin-top: 7.5rem;
+  margin-left: 104px;
+}
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 3rem;
+  margin-right: 82px;
+}
+.cart-container {
+  background-color:  rgba(255, 153, 0, 0.3);
+}
+.cart {
+  position: sticky;
+  top: 0;
+  padding-top: 1rem;
+  min-height: 20rem;
+}
+.cart h5 {
+  text-align: center;
+}
+.cart-detail {
+  margin-left: 2rem;
+}

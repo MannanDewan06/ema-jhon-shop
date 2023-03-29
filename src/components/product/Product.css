@@ -1,0 +1,28 @@
+.product-detail {
+  width: 19rem;
+  height: 31.75rem;
+  border-radius: .5rem;
+  border: 2px solid #95A0A7;
+  position: relative;
+}
+.product-detail img {
+  width: 18rem;
+  height: 18rem;
+  border-radius: .5rem;
+  margin: .5rem;
+}
+.product-info {
+  margin: .5rem;
+}
+.btn-add-cart {
+  width: 100%;
+  background-color: #FFE0B3;
+  height: 3rem;
+  border-radius: .5rem;
+  border: none;
+  position: absolute;
+  bottom: 0;
+}
+.btn-add-cart:hover {
+  background-color: orange;
+}
