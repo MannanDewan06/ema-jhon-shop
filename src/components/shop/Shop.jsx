@@ -29,11 +29,10 @@ const Shop = () => {
   useEffect(() => {
     const getStoredCart = getShoppingCart();
     let productsInCart = [];
-    let quantity;
     for (const id in getStoredCart) {
-      quantity = getStoredCart[id];
       const matchingProduct =  products.find(product => product.id === id );
       if(!!matchingProduct) {
+        const quantity = getStoredCart[id];
         matchingProduct.quantity = quantity;
         productsInCart = [...productsInCart,matchingProduct];
       }
